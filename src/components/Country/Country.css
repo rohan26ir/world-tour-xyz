@@ -1,0 +1,22 @@
+
+.Country-cont{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  gap: 25px;
+}
+
+
+.country{
+  border: 1px solid olivedrab;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  height: 500px;
+}
+
+.car{
+  color: lightgreen;
+  font-weight: bold;
+}
